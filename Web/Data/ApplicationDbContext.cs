@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
+using Web.Models;
 
 namespace Web.Data
 {
@@ -9,5 +10,7 @@ namespace Web.Data
             : base(options)
         {
         }
+
+        DbSet<Snippet> snippets { get; set; }
     }
 }
