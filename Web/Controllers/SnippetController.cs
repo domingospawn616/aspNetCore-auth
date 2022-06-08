@@ -6,6 +6,13 @@ namespace Web.Controllers
     {
         public IActionResult Index()
         {
+            ViewData["title"] = "Consulta trechos";
+            return View();
+        }
+
+        public IActionResult New()
+        {
+            ViewData["title"] = "Novo trecho";
             return View();
         }
     }

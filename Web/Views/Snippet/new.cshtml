@@ -1,0 +1,30 @@
+﻿@{
+}
+
+<div class="col-sm-auto">
+    <h3>Novo treco de codigo</h3>
+</div>
+<form>
+  <div class="form-group">
+    <label for="snippetTitulo">Título</label>
+    <input type="text" class="form-control" id="snippetTitulo" aria-describedby="snippetTituloHelp" placeholder="Titulo do Snippet">
+    <small id="snippetTituloHelp" class="form-text text-muted">Como vamos identificar o trecho de codigo.</small>
+  </div>
+
+  <div class="form-group">
+    <label for="snippetTags">Tags</label>
+    <input type="text" class="form-control" id="snippetTags" aria-describedby="snippetTagsHelp" placeholder="Tags de identificacao">
+    <small id="snippetTagsHelp" class="form-text text-muted">Como vamos Tagear o trecho de codigo.</small>
+  </div>
+
+  <div class="form-group">
+    <label for="snippetTipo">Tipo de trecho de codigo</label>
+    <select class="form-control" id="snippetTipo" aria-describedby="snippetTipoHelp">
+      <option>Publico</option>
+      <option>Privado</option>
+    </select>
+    <small id="snippetTipoHelp" class="form-text text-muted">o trecho de código será público ou privado.</small>
+  </div>
+
+  <button type="submit" class="btn btn-primary">Salvar</button>
+</form>
